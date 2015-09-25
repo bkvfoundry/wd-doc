@@ -1,0 +1,50 @@
+{
+  "name": "md-doc",
+  "version": "0.0.0",
+  "description": "Manage a project's collection of markdown documentation.",
+  "homepage": "",
+  "repository": "BKVFoundry/md-doc",
+  "author": {
+    "name": "Lochlan Bunn",
+    "email": "loklaan@gmail.com",
+    "url": "https://github.com/BKVFoundry"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "keywords": [
+    "markdown",
+    "project",
+    "documentation",
+    "cli"
+  ],
+  "devDependencies": {
+    "babel-core": "^5.5.0",
+    "fs-extra": "^0.24.0",
+    "gulp": "^3.6.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-concat-util": "^0.5.2",
+    "gulp-coveralls": "^0.1.0",
+    "gulp-eslint": "^1.0.0",
+    "gulp-exclude-gitignore": "^1.0.0",
+    "gulp-istanbul": "^0.9.0",
+    "gulp-mocha": "^2.0.0",
+    "gulp-nsp": "^0.4.5",
+    "gulp-plumber": "^1.0.0",
+    "isparta": "^3.0.3"
+  },
+  "scripts": {
+    "prepublish": "gulp prepublish",
+    "test": "gulp"
+  },
+  "bin": "dist/cli.js",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "gaze": "^0.5.1",
+    "into-stream": "^2.0.0",
+    "meow": "^3.3.0",
+    "sanitize-filename": "^1.4.3"
+  },
+  "license": "MIT"
+}
